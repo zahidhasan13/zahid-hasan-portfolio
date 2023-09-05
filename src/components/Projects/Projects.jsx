@@ -1,10 +1,13 @@
-
 const Projects = () => {
-    return (
-        <div>
-            projects
-        </div>
-    );
+  return (
+    <div>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </div>
+  );
 };
 
 export default Projects;

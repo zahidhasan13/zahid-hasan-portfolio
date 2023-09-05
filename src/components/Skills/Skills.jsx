@@ -1,8 +1,24 @@
-
+import { DiCss3, DiFirebase, DiHtml5, DiJavascript1, DiMongodb, DiNodejsSmall, DiReact } from "react-icons/di";
 const Skills = () => {
     return (
-        <div>
-            skills
+        <div className='grid grid-cols-2 px-28 py-16 mt-28'>
+           <div className="mr-20">
+           <h2 className="text-6xl text-[#FFD700] font-bold font-helvetica">Skills</h2>
+            <div className="text-white space-y-6 mt-20">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est earum, id animi similique, deserunt laudantium quasi amet vitae atque asperiores nemo nihil architecto totam, rem quas? Alias, quibusdam a?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt suscipit sed dolores officia quo?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi excepturi placeat doloribus rem nulla quas perferendis dolor possimus sed?</p>
+            </div>
+           </div>
+           <div className='grid grid-cols-3 gap-4 ml-20'>
+            <DiHtml5 className='text-blue-700 text-9xl' title="HTML5"></DiHtml5>
+            <DiCss3 className='text-blue-600 text-9xl' title="CSS3"></DiCss3>
+            <DiJavascript1 className='text-yellow-400 text-9xl' title="JavaScript"></DiJavascript1>
+            <DiReact className='text-blue-400 text-9xl' title="React"></DiReact>
+            <DiNodejsSmall className='text-green-400 text-9xl' title="Node js"></DiNodejsSmall>
+            <DiFirebase className='text-yellow-400 text-9xl' title="Firebase"></DiFirebase>
+            <DiMongodb className='text-green-400 text-9xl' title="MongoDB"></DiMongodb>
+           </div>
         </div>
     );
 };
