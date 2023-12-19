@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
     <div className="">
-      <div className="py-8 lg:py-16 px-48">
-        <h2 className="text-6xl text-[#FFD700] font-bold text-center mb-10 font-helvetica">
+      <div className="py-8 px-12 md:py-16 md:px-48">
+        <h2 className="text-4xl md:text-6xl text-[#FFD700] font-bold text-center mb-10 font-helvetica">
           Contact Me
         </h2>
         <form action="#" className="space-y-8">
